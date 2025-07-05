@@ -1,0 +1,3145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Casino</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="full-container px-5 bg-[#0A0A1A] h-screen">
+      <div class="container mx-auto relative h-screen">
+        <div class="nav h-[100px] w-full absolute top-0"></div>
+        <div class="main mask-images flex items-center justify-center">
+           <div class="winner_number flex items-center justify-center relative w-[250px] h-[120px]">
+            <h2 class="text-4xl text-white font-bold">9</h2>
+           </div>
+        </div>
+        <div
+          class="bottom flex justify-between gap-10 left-5 items-end absolute bottom-3 w-full"
+        >
+          <div class="left w-[350px]">
+            <svg
+              viewBox="0 0 390.25 103.34375"
+              text-rendering="geometricPrecision"
+              class="w-[350px]"
+            >
+              <defs>
+                <style>
+                  .classicRacetrackWrapper {
+                    opacity: 1 !important;
+                    transition: opacity 0.1s ease-in;
+                  }
+                  .classicRacetrackWrapper .color-none {
+                    fill: white;
+                    opacity: 0;
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .red_num_shape {
+                    fill: #b51c12;
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .red_num_shape.transition {
+                    fill: #b51c12;
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .red_num_shape:hover {
+                    fill: rgba(216, 134, 129, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .green_shape {
+                    fill: #166958;
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .green_shape.transition {
+                    fill: #166958;
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .green_shape:hover {
+                    fill: rgba(131, 175, 166, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .black_num_shape {
+                    fill: rgb(28, 33, 47);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .black_num_shape.transition {
+                    fill: #000000;
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .black_num_shape:hover {
+                    fill: rgba(119, 119, 119, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .border {
+                    pointer-events: none;
+                    stroke-width: 2;
+                    transition: 800ms fill, 800ms stroke;
+                    fill: rgba(28, 33, 47, 0);
+                    stroke: rgba(5, 5, 5, 0.507);
+                  }
+                  .classicRacetrackWrapper .sector_color,
+                  .classicRacetrackWrapper .sector_color.disabled {
+                    fill: rgb(26, 26, 30);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .sector_color:hover {
+                    fill: rgba(255, 255, 255, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .black_num_shape_label,
+                  .classicRacetrackWrapper .red_num_shape_label,
+                  .classicRacetrackWrapper .green_shape_label {
+                    pointer-events: none;
+                    font-weight: 400;
+                    font-family: Inter, Arial;
+                    text-anchor: middle;
+                    font-size: 12.6px;
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .black_num_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .red_num_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .green_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .even_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .low_high_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .row_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .third_shape_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .sector_color_label.transition {
+                    transition: 800ms fill;
+                  }
+                  .classicRacetrackWrapper .sector_color_label {
+                    pointer-events: none;
+                    font-weight: 400;
+                    font-family: Inter, Arial;
+                    text-anchor: middle;
+                    font-size: 11.592px;
+                    fill: #f9e1cc;
+                    transition: 0ms fill;
+                  }
+                  .classicRacetrackWrapper .sector_color_label.disabled_label {
+                    fill: #f9e1cc81;
+                  }
+                  .classicRacetrackWrapper .vertical_center {
+                    dominant-baseline: central;
+                  }
+                  .classicRacetrackWrapper .red_num_shape_label {
+                    fill: #f9e1cc;
+                  }
+                  .classicRacetrackWrapper .black_num_shape_label {
+                    fill: #f9e1cc;
+                  }
+                  .classicRacetrackWrapper .green_shape_label {
+                    fill: #f9e1cc;
+                  }
+                </style>
+              </defs>
+              <g class="classicRacetrackWrapper">
+                <path
+                  class="green_shape"
+                  data-bet-spot-id="0"
+                  d="M 24.101 94.127 A 50.622 50.622 0 0 1 3.808 68.153 L 28.402 59.685 A 24.611 24.611 0 0 0 38.268 72.313 Z"
+                ></path>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="1"
+                  x="269.648"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="2"
+                  x="141.89"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="red_num_shape"
+                  data-bet-spot-id="3"
+                  d="M 24.101 9.217 A 50.622 50.622 0 0 0 3.808 35.191 L 28.402 43.659 A 24.611 24.611 0 0 1 38.268 31.031 Z"
+                ></path>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="4"
+                  x="99.304"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="red_num_shape"
+                  data-bet-spot-id="5"
+                  d="M 360.769 6.173 A 50.622 50.622 0 0 1 381.508 24.846 L 359.449 38.63 A 24.611 24.611 0 0 0 349.367 29.552 Z"
+                ></path>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="6"
+                  x="227.062"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="7"
+                  x="99.304"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="black_num_shape"
+                  data-bet-spot-id="8"
+                  d="M 360.769 97.171 A 50.622 50.622 0 0 0 381.508 78.498 L 359.449 64.714 A 24.611 24.611 0 0 1 349.367 73.792 Z"
+                ></path>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="9"
+                  x="184.476"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="black_num_shape"
+                  data-bet-spot-id="10"
+                  d="M 389.2 51.672 A 50.622 50.622 0 0 0 381.508 24.846 L 359.449 38.63 A 24.611 24.611 0 0 1 363.189 51.672 Z"
+                ></path>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="11"
+                  x="312.234"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="12"
+                  x="56.718"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="13"
+                  x="269.648"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="14"
+                  x="227.062"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="15"
+                  x="56.718"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="16"
+                  x="312.234"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="17"
+                  x="184.476"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="18"
+                  x="141.89"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="19"
+                  x="78.011"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="20"
+                  x="248.355"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="21"
+                  x="120.597"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="22"
+                  x="163.183"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="red_num_shape"
+                  data-bet-spot-id="23"
+                  d="M 381.508 78.498 A 50.622 50.622 0 0 0 389.2 51.672 L 363.189 51.672 A 24.611 24.611 0 0 1 359.449 64.714 Z"
+                ></path>
+                <path
+                  class="black_num_shape"
+                  data-bet-spot-id="24"
+                  d="M 338.578 27.061 L 333.532 27.061 L 333.532 1.05 L 338.578 1.05 L 338.578 1.0499999999999998 A 50.622 50.622 0 0 1 360.769 6.173 L 349.367 29.552 A 24.611 24.611 0 0 0 338.578 27.061 Z"
+                ></path>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="25"
+                  x="163.183"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="black_num_shape"
+                  data-bet-spot-id="26"
+                  d="M 3.808 35.191 A 50.622 50.622 0 0 0 3.808 68.153 L 28.402 59.685 A 24.611 24.611 0 0 1 28.402 43.659 Z"
+                ></path>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="27"
+                  x="248.355"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="28"
+                  x="78.011"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="29"
+                  x="120.597"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="red_num_shape"
+                  data-bet-spot-id="30"
+                  d="M 338.578 76.283 L 333.532 76.283 L 333.532 102.29375 L 338.578 102.29375 L 338.578 102.294 A 50.622 50.622 0 0 0 360.769 97.171 L 349.367 73.792 A 24.611 24.611 0 0 1 338.578 76.283 Z"
+                ></path>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="31"
+                  x="205.769"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="red_num_shape"
+                  data-bet-spot-id="32"
+                  d="M 51.672 76.283 L 56.718 76.283 L 56.718 102.29375 L 51.672 102.29375 L 34 99.500 A 50.622 50.622 0 0 0 24.101 94.127 L 38.268 72.313 A 30 24.611 0 0 1 43.672 75.183 Z"
+                ></path>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="33"
+                  x="290.941"
+                  y="1.05"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="34"
+                  x="205.769"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="black_num_shape"
+                  data-bet-spot-id="35"
+                  d="M 51.672 27.061 L 56.718 27.061 L 56.718 1.05 L 51.672 1.05 L 51.672 1.0499999999999998 A 50.622 50.622 0 0 0 24.101 9.217 L 38.268 31.031 A 24.611 24.611 0 0 1 51.672 27.061 Z"
+                ></path>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="36"
+                  x="290.941"
+                  y="76.283"
+                  width="21.293"
+                  height="26.011"
+                ></rect>
+                <path
+                  class="sector_color"
+                  data-bet-spot-id="jeu_zero"
+                  d="M 83.062 27.061 L 51.677 27.061 A 24.611 24.611 0 0 0 51.677 76.283 L 83.062 76.283 A 24.611 24.611 0 0 0 83.062 27.061 Z"
+                ></path>
+                <path
+                  class="sector_color"
+                  data-bet-spot-id="orphelins_a_cheval"
+                  d="M 290.941 27.061 L 248.355 76.283 L 184.476 76.283 L 184.476 27.061 Z"
+                ></path>
+                <path
+                  class="sector_color"
+                  data-bet-spot-id="tiers_du_cylindre"
+                  d="M 248.355 76.283 L 338.578 76.283 A 24.611 24.611 0 0 0 338.578 27.061 L 290.941 27.061 Z"
+                ></path>
+                <path
+                  class="sector_color"
+                  data-bet-spot-id="voisins_du_zero"
+                  d="M 184.476 27.061 L 83.062 27.061 A 24.611 24.611 0 0 1 83.062 76.283 L 184.476 76.283 Z"
+                ></path>
+                <path
+                  d="M 338.578 1.05 L 51.672 1.05 A 50.622 50.622 0 0 0 51.672 102.294 L 338.578 102.294 A 50.622 50.622 0 0 0 338.578 1.05 M 338.578 27.061 L 51.672 27.061 A 24.611 24.611 0 0 0 51.672 76.283 L 338.578 76.283 A 24.611 24.611 0 0 0 338.578 27.061 M 333.532 1.05 v 26.011 M 312.234 1.05 v 26.011 M 290.941 1.05 v 26.011 M 269.648 1.05 v 26.011 M 248.355 1.05 v 26.011 M 227.062 1.05 v 26.011 M 205.769 1.05 v 26.011 M 184.476 1.05 v 26.011 M 163.183 1.05 v 26.011 M 141.89 1.05 v 26.011 M 120.597 1.05 v 26.011 M 99.304 1.05 v 26.011 M 78.011 1.05 v 26.011 M 56.718 1.05 v 26.011 M 333.532 76.283 v 26.011 M 312.234 76.283 v 26.011 M 290.941 76.283 v 26.011 M 269.648 76.283 v 26.011 M 248.355 76.283 v 26.011 M 227.062 76.283 v 26.011 M 205.769 76.283 v 26.011 M 184.476 76.283 v 26.011 M 163.183 76.283 v 26.011 M 141.89 76.283 v 26.011 M 120.597 76.283 v 26.011 M 99.304 76.283 v 26.011 M 78.011 76.283 v 26.011 M 56.718 76.283 v 26.011 M 360.769 97.171 L 349.367 73.792 M 381.508 78.498 L 359.449 64.714 M 389.2 51.672 L 363.189 51.672 M 381.508 24.846 L 359.449 38.63 M 381.508 24.846 L 359.449 38.63 M 360.769 6.173 L 349.367 29.552 M 24.101 9.217 L 38.268 31.031 M 3.808 35.191 L 28.402 43.659 M 3.808 68.153 L 28.402 59.685 M 3.808 68.153 L 28.402 59.685 M 24.101 94.127 L 38.268 72.313 M 290.941 27.061 L 248.355 76.283 M 184.476 27.061 L 184.476 76.283 M 83.062 27.061 a 17.018 17.458 0 0 1 0 49.222"
+                  class="border"
+                ></path>
+                <text
+                  class="green_shape_label vertical_center"
+                  x="5.600%"
+                  y="72.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  0
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="71.800%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  1
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="39.100%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  2
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="5.600%"
+                  y="27.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  3
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="28.200%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  4
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="93.200%"
+                  y="22.900%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  5
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="60.900%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  6
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="28.200%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  7
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="93.200%"
+                  y="77.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  8
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="50.000%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  9
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="96.000%"
+                  y="40.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  10
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="82.700%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  1 1
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="17.300%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  12
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="71.800%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  13
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="60.900%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  14
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="17.300%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  15
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="82.700%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  16
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="50.000%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  17
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="39.100%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  18
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="22.700%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  19
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="66.400%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  20
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="33.600%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  21
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="44.500%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  22
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="96.000%"
+                  y="60.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  23
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="88.300%"
+                  y="14.500%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  24
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="44.500%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  25
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="3.600%"
+                  y="50.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  26
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="66.400%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  27
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="22.700%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  28
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="33.600%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  29
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="88.300%"
+                  y="85.500%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  30
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="55.500%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  31
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="11.100%"
+                  y="84.900%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  32
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="77.300%"
+                  y="13.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  33
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="55.500%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  34
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="11.100%"
+                  y="15.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  35
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="77.300%"
+                  y="86.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  36
+                </text>
+                <text
+                  class="sector_color_label vertical_center"
+                  x="57.700%"
+                  y="50.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  ORPHELINS
+                </text>
+                <text
+                  class="sector_color_label vertical_center"
+                  x="80.800%"
+                  y="50.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  TIER
+                </text>
+                <text
+                  class="sector_color_label vertical_center"
+                  x="37.000%"
+                  y="50.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  VOISINS
+                </text>
+                <text
+                  class="sector_color_label vertical_center"
+                  x="16.800%"
+                  y="50.000%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  ZERO
+                </text>
+              </g>
+            </svg>
+            <div class="btns mt-3 flex items-center justify-between">
+              <div
+                class="left-btns bg-[#323235] rounded-lg w-[70px] h-[25px] flex items-center justify-between"
+              >
+                <button
+                  class="w-[34px] h-[25px] bg-[#1F9999] cursor-pointer rounded-lg flex items-center justify-center "
+                >
+                  <img src="./imgs/ring.svg" class="w-[30px]  h-[20px]" alt="Rectangle">
+                </button>
+                <button class="w-[34px] h-[25px] cursor-pointer flex items-center justify-center">
+                  <img src="./imgs/circle.svg" class="w-[23px]" alt="Circle">
+                </button>
+              </div>
+              <div class="flex items-center gap-2 text-white">
+                <button class="bg-[#323235] cursor-pointer p-1 rounded-lg">
+                  <img
+                    src="./imgs/minus-svgrepo-com.svg"
+                    alt="minus"
+                    class="w-[15px]"
+                  />
+                </button>
+                <button class="bg-[#1F9999] px-2 py-[1.7px] rounded-lg text-sm">
+                  9
+                </button>
+                <button class="bg-[#323235] cursor-pointer p-1 rounded-lg">
+                  <img
+                    src="./imgs/plus-svgrepo-com.svg"
+                    class="w-[15px]"
+                    alt="plus"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center gap-[10px] mt-3 text-xs">
+              <span class="text-red-500 bg-gray-800/80 px-1">25</span>
+              <span class="text-white">10</span>
+              <span class="text-white">11</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">16</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">9</span>
+              <span class="text-white">24</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">25</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">18</span>
+              <span class="text-white">2</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">14</span>
+              <span class="text-white">35</span>
+              <span class="text-white">17</span>
+              <span class="text-white">8</span>
+              <span class="text-red-500 bg-gray-800/80 px-1">14</span>
+            </div>
+          </div>
+
+          <div class="center w-[450px]">
+            <svg
+              viewBox="0 0 845.796875 206.703125"
+              text-rendering="geometricPrecision"
+              class="w-[450px]"
+            >
+              <defs>
+                <style>
+                  .classicStandard-wrapper {
+                    opacity: 1 !important;
+                    transition: opacity 0.1s ease-in;
+                  }
+                  .classicStandard-wrapper .color-none {
+                    fill: white;
+                    opacity: 0;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .black_num_shape {
+                    fill: rgb(31, 34, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .black_num_shape.transition {
+                    fill: #000000;
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .black_num_shape:hover {
+                    fill: rgba(119, 119, 119, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_num_shape {
+                    fill: #b51c12;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_num_shape.transition {
+                    fill: #b51c12;
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .red_num_shape:hover {
+                    fill: rgba(216, 134, 129, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .green_shape {
+                    fill: rgb(40, 102, 99);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .green_shape.transition {
+                    fill: #166958;
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .green_shape:hover {
+                    fill: rgba(131, 175, 166, 1);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .even_shape {
+                    fill: rgb(31, 33, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .even_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .even_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .third_shape {
+                    fill: rgb(31, 33, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .third_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .third_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .low_high_shape {
+                    fill: rgb(31, 33, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .low_high_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .low_high_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .row_shape {
+                    fill: rgb(31, 37, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .row_shape1 {
+                    fill: rgb(0, 0, 0);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .row_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .row_shape1.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .row_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .odd_shape {
+                    fill: rgb(31, 33, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .odd_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .odd_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .black_shape {
+                    fill: rgb(31, 33, 51);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .black_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .black_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_shape {
+                    fill: rgb(181, 28, 18);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_shape.transition {
+                    fill: rgba(0, 0, 0, 0);
+                    transition: 800ms fill;
+                  }
+                  .classicStandard-wrapper .red_shape:hover {
+                    fill: rgba(119, 119, 119, 0.47);
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_color_label,
+                  .classicStandard-wrapper .black_color_label {
+                    pointer-events: none;
+                    stroke: #f9e1cc;
+                    stroke-width: 1;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .red_color_label {
+                    fill: #b51c12;
+                    transition: 0ms fill, 0ms stroke;
+                  }
+                  .classicStandard-wrapper .black_color_label {
+                    fill: #000000;
+                    transition: 0ms fill, 0ms stroke;
+                  }
+                  .classicStandard-wrapper .black_num_shape_label,
+                  .classicStandard-wrapper .red_num_shape_label,
+                  .classicStandard-wrapper .green_shape_label,
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .low_high_shape_label,
+                  .classicStandard-wrapper .row_shape_label,
+                  .classicStandard-wrapper .third_shape_label {
+                    pointer-events: none;
+                    font-weight: 400;
+                    font-family: Inter, Arial;
+                    text-anchor: middle;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .black_num_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .red_num_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .green_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .even_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .even_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .low_high_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .row_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .third_shape_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper
+                    .outside_small_color_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .red_color_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .black_color_label.transition {
+                    transition: 800ms fill, 800ms stroke;
+                  }
+                  .classicStandard-wrapper .vertical_center {
+                    dominant-baseline: central;
+                  }
+                  .classicStandard-wrapper .red_num_shape_label {
+                    fill: #f9e1cc;
+                  }
+                  .classicStandard-wrapper .black_num_shape_label {
+                    fill: #f9e1cc;
+                  }
+                  .classicStandard-wrapper .green_shape_label {
+                    fill: #f9e1cc;
+                  }
+                  .classicStandard-wrapper .low_high_shape_label,
+                  .classicStandard-wrapper .third_shape_label,
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .row_shape_label {
+                    fill: #f9e1cc;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .outside_small_color_label,
+                  .classicStandard-wrapper .outside_color_label .small {
+                    fill: #f9e1cc;
+                    transition: 0ms fill;
+                  }
+                  .classicStandard-wrapper .green_shape_label,
+                  .classicStandard-wrapper .red_num_shape_label,
+                  .classicStandard-wrapper .black_num_shape_label {
+                    font-size: 24.2px;
+                  }
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .even_shape_label,
+                  .classicStandard-wrapper .low_high_shape_label {
+                    font-size: 25.389px;
+                  }
+                  .classicStandard-wrapper .row_shape_label {
+                    font-size: 22.229999999999997px;
+                  }
+                  .classicStandard-wrapper .third_shape_label {
+                    font-size: 25.389px;
+                  }
+                  .classicStandard-wrapper .border {
+                    pointer-events: none;
+                    stroke-width: 4;
+                    transition: 800ms fill, 800ms stroke;
+                    fill: transparent;
+                    stroke: rgba(5, 5, 5, 0.507);
+                  }
+                </style>
+              </defs>
+              <g class="classicStandard-wrapper">
+                <polygon
+                  class="green_shape"
+                  data-bet-spot-id="0"
+                  points="0.5,64.782 14.164,0.5 58.488,0.5 58.488,129.064 14.164,129.064"
+                ></polygon>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="1"
+                  x="58.5"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="2"
+                  x="58.5"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="3"
+                  x="58.5"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="4"
+                  x="119.5"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="5"
+                  x="119.5"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="6"
+                  x="119.5"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="7"
+                  x="180.6"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="8"
+                  x="180.6"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="9"
+                  x="180.6"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="10"
+                  x="241.6"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="11"
+                  x="241.6"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="12"
+                  x="241.6"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="13"
+                  x="302.6"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="14"
+                  x="302.6"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="15"
+                  x="302.6"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="16"
+                  x="363.7"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="17"
+                  x="363.7"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="18"
+                  x="363.7"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="19"
+                  x="424.7"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="20"
+                  x="424.7"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="21"
+                  x="424.7"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="22"
+                  x="485.8"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="23"
+                  x="485.8"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="24"
+                  x="485.8"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="25"
+                  x="546.8"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="26"
+                  x="546.8"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="27"
+                  x="546.8"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="28"
+                  x="607.8"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="29"
+                  x="607.8"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="30"
+                  x="607.8"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="31"
+                  x="668.9"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="32"
+                  x="668.9"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="33"
+                  x="668.9"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="34"
+                  x="729.9"
+                  y="86.2"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="black_num_shape"
+                  data-bet-spot-id="35"
+                  x="729.9"
+                  y="43.4"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="red_num_shape"
+                  data-bet-spot-id="36"
+                  x="729.9"
+                  y="0.5"
+                  width="61.04"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="row_shape"
+                  data-bet-spot-id="top2to1"
+                  x="790.968"
+                  y="0.5"
+                  width="54.326"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="row_shape"
+                  data-bet-spot-id="middle2to1"
+                  x="790.968"
+                  y="43.355"
+                  width="54.326"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="row_shape"
+                  data-bet-spot-id="bottom2to1"
+                  x="790.968"
+                  y="86.21"
+                  width="54.326"
+                  height="42.855"
+                ></rect>
+                <!-- ,................................................... -->
+                <rect
+                  class="row_shape1"
+                  data-bet-spot-id="bottom2to1"
+                  x="790.968"
+                  y="126"
+                  stroke="rgba(5, 5, 5, 0.507)"
+                  stroke-width="4"
+                  width="54.326"
+                  height="42.855"
+                ></rect>
+                <rect
+                  class="third_shape"
+                  data-bet-spot-id="1st12"
+                  x="58.488"
+                  y="129.064"
+                  width="244.16"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="third_shape"
+                  data-bet-spot-id="2nd12"
+                  x="302.648"
+                  y="129.064"
+                  width="244.16"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="third_shape"
+                  data-bet-spot-id="3rd12"
+                  x="546.808"
+                  y="129.064"
+                  width="244.16"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="low_high_shape"
+                  data-bet-spot-id="from1to18"
+                  x="58.488"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="even_shape"
+                  data-bet-spot-id="even"
+                  x="180.568"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="red_shape"
+                  data-bet-spot-id="red"
+                  x="302.648"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="black_shape"
+                  data-bet-spot-id="black"
+                  x="424.728"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="odd_shape"
+                  data-bet-spot-id="odd"
+                  x="546.808"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <rect
+                  class="low_high_shape"
+                  data-bet-spot-id="from19to36"
+                  x="668.888"
+                  y="167.633"
+                  width="122.08"
+                  height="38.569"
+                ></rect>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_1"
+                  cx="58.5"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_1_2_3"
+                  cx="58.5"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="1_2_3"
+                  cx="89.02"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_2"
+                  cx="58.5"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_1_2"
+                  cx="58.5"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="1_2"
+                  cx="89.02"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_3"
+                  cx="58.5"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="0_2_3"
+                  cx="58.5"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="2_3"
+                  cx="89.02"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="1_4"
+                  cx="119.5"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="1_2_3_4_5_6"
+                  cx="119.5"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="4_5_6"
+                  cx="150.02"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="2_5"
+                  cx="119.5"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="1_2_4_5"
+                  cx="119.5"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="4_5"
+                  cx="150.02"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="3_6"
+                  cx="119.5"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="2_3_5_6"
+                  cx="119.5"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="5_6"
+                  cx="150.02"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="4_7"
+                  cx="180.6"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="4_5_6_7_8_9"
+                  cx="180.6"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="7_8_9"
+                  cx="211.12"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="5_8"
+                  cx="180.6"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="4_5_7_8"
+                  cx="180.6"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="7_8"
+                  cx="211.12"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="6_9"
+                  cx="180.6"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="5_6_8_9"
+                  cx="180.6"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="8_9"
+                  cx="211.12"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="7_10"
+                  cx="241.6"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="7_8_9_10_11_12"
+                  cx="241.6"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="10_11_12"
+                  cx="272.12"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="8_11"
+                  cx="241.6"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="7_8_10_11"
+                  cx="241.6"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="10_11"
+                  cx="272.12"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="9_12"
+                  cx="241.6"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="8_9_11_12"
+                  cx="241.6"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="11_12"
+                  cx="272.12"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="10_13"
+                  cx="302.6"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="10_11_12_13_14_15"
+                  cx="302.6"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="13_14_15"
+                  cx="333.12"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="11_14"
+                  cx="302.6"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="10_11_13_14"
+                  cx="302.6"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="13_14"
+                  cx="333.12"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="12_15"
+                  cx="302.6"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="11_12_14_15"
+                  cx="302.6"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="14_15"
+                  cx="333.12"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="13_16"
+                  cx="363.7"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="13_14_15_16_17_18"
+                  cx="363.7"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="16_17_18"
+                  cx="394.21999999999997"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="14_17"
+                  cx="363.7"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="13_14_16_17"
+                  cx="363.7"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="16_17"
+                  cx="394.21999999999997"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="15_18"
+                  cx="363.7"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="14_15_17_18"
+                  cx="363.7"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="17_18"
+                  cx="394.21999999999997"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="16_19"
+                  cx="424.7"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="16_17_18_19_20_21"
+                  cx="424.7"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="19_20_21"
+                  cx="455.21999999999997"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="17_20"
+                  cx="424.7"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="16_17_19_20"
+                  cx="424.7"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="19_20"
+                  cx="455.21999999999997"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="18_21"
+                  cx="424.7"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="17_18_20_21"
+                  cx="424.7"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="20_21"
+                  cx="455.21999999999997"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="19_22"
+                  cx="485.8"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="19_20_21_22_23_24"
+                  cx="485.8"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="22_23_24"
+                  cx="516.32"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="20_23"
+                  cx="485.8"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="19_20_22_23"
+                  cx="485.8"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="22_23"
+                  cx="516.32"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="21_24"
+                  cx="485.8"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="20_21_23_24"
+                  cx="485.8"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="23_24"
+                  cx="516.32"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="22_25"
+                  cx="546.8"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="22_23_24_25_26_27"
+                  cx="546.8"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="25_26_27"
+                  cx="577.3199999999999"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="23_26"
+                  cx="546.8"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="22_23_25_26"
+                  cx="546.8"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="25_26"
+                  cx="577.3199999999999"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="24_27"
+                  cx="546.8"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="23_24_26_27"
+                  cx="546.8"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="26_27"
+                  cx="577.3199999999999"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="25_28"
+                  cx="607.8"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="25_26_27_28_29_30"
+                  cx="607.8"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="28_29_30"
+                  cx="638.3199999999999"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="26_29"
+                  cx="607.8"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="25_26_28_29"
+                  cx="607.8"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="28_29"
+                  cx="638.3199999999999"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="27_30"
+                  cx="607.8"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="26_27_29_30"
+                  cx="607.8"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="29_30"
+                  cx="638.3199999999999"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="28_31"
+                  cx="668.9"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="28_29_30_31_32_33"
+                  cx="668.9"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="31_32_33"
+                  cx="699.42"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="29_32"
+                  cx="668.9"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="28_29_31_32"
+                  cx="668.9"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="31_32"
+                  cx="699.42"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="30_33"
+                  cx="668.9"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="29_30_32_33"
+                  cx="668.9"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="32_33"
+                  cx="699.42"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="31_34"
+                  cx="729.9"
+                  cy="107.6275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="31_32_33_34_35_36"
+                  cx="729.9"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="34_35_36"
+                  cx="760.42"
+                  cy="129.055"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="32_35"
+                  cx="729.9"
+                  cy="64.8275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="31_32_34_35"
+                  cx="729.9"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="34_35"
+                  cx="760.42"
+                  cy="86.255"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="33_36"
+                  cx="729.9"
+                  cy="21.9275"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="32_33_35_36"
+                  cx="729.9"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <ellipse
+                  class="color-none"
+                  data-bet-spot-id="35_36"
+                  cx="760.42"
+                  cy="43.355"
+                  rx="13.19"
+                  ry="9.43"
+                ></ellipse>
+                <path
+                  shape-rendering="geometricPrecision"
+                  class="border"
+                  d="M0.5 64.782 L14.164 0.5 L58.488 0.5 L58.488 129.064 L14.164 129.064z M58.488 129.064 v-128.565 h732.48 v128.565z M58.488 0.5 v128.565 M119.528 0.5 v128.565 M180.568 0.5 v128.565 M241.608 0.5 v128.565 M302.648 0.5 v128.565 M363.688 0.5 v128.565 M424.728 0.5 v128.565 M485.768 0.5 v128.565 M546.808 0.5 v128.565 M607.848 0.5 v128.565 M668.888 0.5 v128.565 M729.928 0.5 v128.565 M58.488 43.355 h732.48 M58.488 86.21 h732.48M790.968 0.5 h54.326 v128.565 h-54.326z M790.968 43.355 h54.326 M790.968 86.21 h54.326 M58.488 129.064 h732.48 v77.138 h-732.48z M58.488 167.633 h732.48 M302.648 129.064 v38.569 M546.808 129.064 v38.569 M180.568 167.633 v38.569 M302.648 167.633 v38.569 M424.728 167.633 v38.569 M546.808 167.633 v38.569 M668.888 167.633 v38.569"
+                ></path>
+                <text
+                  class="green_shape_label vertical_center"
+                  x="3.500%"
+                  y="31.300%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  0
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="10.500%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  1
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="10.500%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  2
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="10.500%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  3
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="17.700%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  4
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="17.700%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  5
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="17.700%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  6
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="25.000%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  7
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="25.000%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  8
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="25.000%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  9
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="32.200%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  10
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="32.200%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  1&thinsp;1
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="32.200%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  12
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="39.400%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  13
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="39.400%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  14
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="39.400%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  15
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="46.600%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  16
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="46.600%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  17
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="46.600%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  18
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="53.800%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  19
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="53.800%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  20
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="53.800%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  21
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="61.000%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  22
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="61.000%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  23
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="61.000%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  24
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="68.300%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  25
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="68.300%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  26
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="68.300%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  27
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="75.500%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  28
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="75.500%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  29
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="75.500%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  30
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="82.700%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  31
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="82.700%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  32
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="82.700%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  33
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="89.900%"
+                  y="52.100%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  34
+                </text>
+                <text
+                  class="black_num_shape_label vertical_center"
+                  x="89.900%"
+                  y="31.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  35
+                </text>
+                <text
+                  class="red_num_shape_label vertical_center"
+                  x="89.900%"
+                  y="10.600%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  36
+                </text>
+                <g class="row_shape_label">
+                  <text x="96.700%" y="10.600%" dx="-0.65em" dy="0.36em">
+                    2
+                  </text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="96.700%"
+                    y="10.600%"
+                    dx="0.14em"
+                  >
+                    TO
+                  </text>
+                  <text x="96.700%" y="10.600%" dx="0.75em" dy="0.36em">1</text>
+                </g>
+                <g class="row_shape_label">
+                  <text x="96.700%" y="31.300%" dx="-0.65em" dy="0.36em">
+                    2
+                  </text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="96.700%"
+                    y="31.300%"
+                    dx="0.14em"
+                  >
+                    TO
+                  </text>
+                  <text x="96.700%" y="31.300%" dx="0.75em" dy="0.36em">1</text>
+                </g>
+                <!-- ...................................................... -->
+                <g class="row_shape_label">
+                  <text x="96.700%" y="52.100%" dx="-0.65em" dy="0.36em">
+                    2
+                  </text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="96.700%"
+                    y="52.100%"
+                    dx="0.14em"
+                  >
+                    TO
+                  </text>
+                  <text x="96.700%" y="52.100%" dx="0.75em" dy="0.36em">1</text>
+                </g>
+                <g class="row_shape_label">
+                  <text x="97.500%" y="72.100%" dx="-0.65em" dy="0.36em">
+                    0
+                  </text>
+                  <text x="95.700%" y="72.100%" dx="0.75em" dy="0.36em">%</text>
+                </g>
+                <!-- ......................................... -->
+                <g class="row_shape_label">
+                  <svg
+                    x="95.5%"
+                    y="85.5%"
+                    width="26"
+                    height="26"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#ffffff"
+                    stroke-width="0.192"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M5.926 20.574a7.26 7.26 0 0 0 3.039 1.511c.107.035.179-.105.107-.175-2.395-2.285-1.079-4.758-.107-5.873.693-.796 1.68-2.107 1.608-3.865 0-.176.18-.317.322-.211 1.359.703 2.288 2.25 2.538 3.515.394-.386.537-.984.537-1.511 0-.176.214-.317.393-.176 1.287 1.16 3.503 5.097-.072 8.19-.071.071 0 .212.072.177a8.761 8.761 0 0 0 3.003-1.442c5.827-4.5 2.037-12.48-.43-15.116-.321-.317-.893-.106-.893.351-.036.95-.322 2.004-1.072 2.707-.572-2.39-2.478-5.105-5.195-6.441-.357-.176-.786.105-.75.492.07 3.27-2.063 5.352-3.922 8.059-1.645 2.425-2.717 6.89.822 9.808z"
+                        fill="#ffffff"
+                      />
+                    </g>
+                  </svg>
+                </g>
+                <g class="third_shape_label">
+                  <text x="21.300%" y="71.800%" dx="-1em" dy="0.36em">1</text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="21.300%"
+                    y="71.800%"
+                    dx="-0.8em"
+                  >
+                    ST
+                  </text>
+                  <text x="21.300%" y="71.800%" dx="0.7em" dy="0.36em">12</text>
+                </g>
+                <g class="third_shape_label">
+                  <text x="50.200%" y="71.800%" dx="-1.2em" dy="0.36em">2</text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="50.200%"
+                    y="71.800%"
+                    dx="-0.8em"
+                  >
+                    ND
+                  </text>
+                  <text x="50.200%" y="71.800%" dx="0.7em" dy="0.36em">12</text>
+                </g>
+                <g class="third_shape_label">
+                  <text x="79.100%" y="71.800%" dx="-1.2em" dy="0.36em">3</text>
+                  <text
+                    class="small"
+                    font-size="50%"
+                    x="79.100%"
+                    y="71.800%"
+                    dx="-0.8em"
+                  >
+                    RD
+                  </text>
+                  <text x="79.100%" y="71.800%" dx="0.7em" dy="0.36em">12</text>
+                </g>
+                <text
+                  class="low_high_shape_label vertical_center"
+                  x="14.100%"
+                  y="90.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  1-18
+                </text>
+                <text
+                  class="even_shape_label vertical_center"
+                  x="28.600%"
+                  y="90.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  EVEN
+                </text>
+                <text
+                  class="even_shape_label vertical_center"
+                  x="71.900%"
+                  y="90.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  ODD
+                </text>
+                <text
+                  class="low_high_shape_label vertical_center"
+                  x="86.300%"
+                  y="90.400%"
+                  dx="0em"
+                  dy="0em"
+                >
+                  19-36
+                </text>
+              </g>
+            </svg>
+            <div
+              class="btns-center flex items-center justify-center gap-2 mt-3"
+            >
+              <div
+                class="reload w-[40px] h-[40px] rounded-full hover:bg-[rgb(8,107,212)] cursor-pointer bg-[rgb(12,47,84)] flex items-center justify-center"
+              >
+                <img
+                  src="./imgs/reload-refresh-svgrepo-com.svg"
+                  class="w-[20px]"
+                  alt="reeload"
+                />
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(0,170,23)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                    filter="url(#shadow0)"
+                  >
+                    0.5
+                  </text>
+                  <defs>
+                    <filter id="shadow0" x="-20%" y="-20%" width="140%" height="140%">
+                      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.5"/>
+                    </filter>
+                  </defs>
+                </svg>
+                </svg>
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(255,104,14)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                  >
+                    2.5
+                  </text>
+                </svg>
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(225,41,123)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                  >
+                    10
+                  </text>
+                </svg>
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(180,14,14)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                  >
+                    50
+                  </text>
+                </svg>
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(28,12,168)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                  >
+                    250
+                  </text>
+                </svg>
+              </div>
+              <div class="f_ring">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 58 58"
+                  class="w-[50px] cursor-pointer"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="29" cy="29" r="27.55" fill="rgb(24,26,28)" />
+                    <path
+                      fill="#EBEBEB"
+                      d="M24.085 8.01L22.61 1.712c1.725-.402 3.51-.645 5.34-.712l.243 6.462c-1.408.05-2.78.238-4.108.548zM49.99 24.085l6.298-1.474c.402 1.726.645 3.51.712 5.34l-6.462.244c-.05-1.408-.238-2.78-.548-4.108zM33.915 49.99l1.474 6.298c-1.726.402-3.51.645-5.34.712l-.244-6.462c1.408-.05 2.78-.238 4.108-.548zM8.01 33.915L1.712 35.39c-.402-1.725-.645-3.51-.712-5.34l6.462-.243c.05 1.408.238 2.78.548 4.108zM30.06 7.472l.32-6.458c1.828.09 3.61.353 5.33.776l-1.548 6.28c-1.323-.326-2.694-.53-4.1-.598zm20.468 22.59l6.458.318c-.09 1.828-.353 3.61-.776 5.33l-6.28-1.548c.326-1.323.53-2.694.598-4.1zm-22.59 20.466l-.318 6.458c-1.828-.09-3.61-.353-5.33-.776l1.548-6.28c1.323.326 2.694.53 4.1.598zM7.473 27.938l-6.458-.318c.09-1.828.353-3.61.776-5.33l6.28 1.548c-.325 1.323-.53 2.694-.597 4.1zm33.14-17.1l3.483-5.448c3.338 2.14 6.192 4.966 8.363 8.28l-5.414 3.538c-1.67-2.55-3.866-4.724-6.433-6.37zm6.55 29.774l5.448 3.483c-2.14 3.338-4.965 6.192-8.28 8.363l-3.537-5.413c2.55-1.67 4.724-3.866 6.37-6.433zm-29.774 6.55l-3.484 5.448c-3.338-2.14-6.192-4.966-8.363-8.28l5.413-3.538c1.67 2.55 3.866 4.724 6.433 6.37zm-6.55-29.774l-5.45-3.483c2.14-3.338 4.966-6.192 8.28-8.363l3.538 5.413c-2.55 1.67-4.724 3.866-6.37 6.433z"
+                    />
+                    <ellipse
+                      cx="18.85"
+                      cy="18.85"
+                      rx="18.85"
+                      ry="18.85"
+                      fill="#000"
+                      fill-opacity=".2"
+                      transform="translate(10.15 10.15)"
+                    />
+                  </g>
+
+                  <!-- Centered Text -->
+                  <text
+                    x="29"
+                    y="31"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    font-size="16"
+                    fill="white"
+                    font-weight="bold"
+                  >
+                    1K
+                  </text>
+                </svg>
+              </div>
+              <div
+                class="reload w-[40px] h-[40px] cursor-pointer hover:bg-[rgb(226,73,3)] text-sm text-gray-400 font-bold rounded-full bg-[rgb(108,50,24)] flex items-center justify-center"
+              >
+                x2
+              </div>
+            </div>
+          </div>
+          <div class="right w-[475px] flex items-center justify-between">
+            <button class="flex items-center hover:bg-gray-500 cursor-pointer gap-1 text-sm text-white bg-gray-600 px-3 py-1 rounded-full">
+              <img src="./imgs/reload-two side.svg" class="w-[20px] h-[20px]" alt="reload">
+              <span>Autoplay</span>
+            </button>
+            <div class="text-white text-xs text-end">
+              <h5 class="text-gray-500 text-[10px]">04 Jul 2025 14:20:35 . 54748754</h5>
+              <div class="flex items-center gap-3">
+                <h4>Last win <span class="text-orange-400">Rs.0</span></h4>
+                <h4>Balance <span class="text-orange-400">Rs.0</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
